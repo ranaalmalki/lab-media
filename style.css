@@ -1,4 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+/*nav bar section*/
+
+.nav-container{
+    background-color: #23272e;
+    font-size: large;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+   gap: 2em;
+  
+    }
+    .li-react-web{
+        flex-grow: 2;
+    }
+    .nav-items a{
+        display: flex;
+        color: #ebecf0;
+        text-decoration: none;
+    font-size: 46px;
+    align-items: center;
+    }
+    .nav-items a:hover{
+        text-decoration: underline;
+    }
+    .nav-items img{
+        height:8vh ;
+        width: 11vh;
+    }
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
+
 @media only screen and (min-width: 600px) {
 
     
