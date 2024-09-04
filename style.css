@@ -35,10 +35,30 @@ box-sizing: border-box;
         height:8vh ;
         width: 11vh;
     }
+
+    /* droplist*/
+
+    
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
+    .nav-items{
+        
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       gap: 2em;
+      
+        }
+        .nav-items img{
+            display: flex;
+            align-items: flex-start;
+            height:23vh ;
+            width: 27vh;
+
+        }
     
 } 
