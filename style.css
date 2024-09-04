@@ -37,8 +37,12 @@ box-sizing: border-box;
     }
 
     /* droplist*/
+    .droplist {
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+       }
 
-    
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 
@@ -61,4 +65,25 @@ box-sizing: border-box;
 
         }
     
+        /*
+          .nav-container{
+            background-color: #23272e;
+            font-size: large;
+            padding: 1.5rem 2rem;
+            background-color: #222831;
+            color: #fff;
+        }
+        
+        .nav-container {
+            display: none;
+           }
+           .list-menu {
+            font-size: 1.5rem;
+            color: white;
+            cursor: pointer;
+           }
+           #droplist:checked ~ .nav-container{
+            display: block;
+           }
+            */
 } 
